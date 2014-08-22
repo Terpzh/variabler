@@ -1,20 +1,17 @@
 <html>
   <head>
+      <meta charset="utf-8">
     <script>
       // Deklarerar en variabel.
-      var username, password, ålder; 
-        
-        //Fråga användaren efter namn.
-        username = prompt("Skriv ditt användarnamn:");
+      var password; 
         
         //Frågar användaren efter lösenord.
         password = prompt("Skriv ditt lösenord:");
         
-        //Frågar användaren efter ålder.
-        age = prompt ("Skriv din ålder:");
-        
-        //Skriva ut variabelvärdet.
-        alert(" Användarnamn: " +  username + " " + "Lösenord: " + password + " " + "Ålder: " + age);
+       //Kolla om användaren skrivit in rätt lösenord.
+        if(password == "Glenn"){
+            alert("Grattis kompis");
+        }
         
       </script>
     </head>
